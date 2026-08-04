@@ -1,0 +1,28 @@
+/* Modification de la police de caractères */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333333;
+    padding: 18px;
+    line-height: 1.6;
+}
+
+/* Modification de la couleur du titre */
+h1 {
+    color: #1a5276;
+    border-bottom: 2px solid #1a5276;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #2e4053;
+}
+
+.phrase-cle {
+    font-weight: bold;
+    font-style: italic;
+    color: #117a65;
+    background-color: #e8f8f5;
+    padding: 8px;
+    border-left: 4px solid #117a65;
+}
