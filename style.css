@@ -1,62 +1,25 @@
-/* 1. Réinitialisation de base */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* 2. Centrage du contenu sur tout l'écran avec Flexbox */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f6f8; /* Un gris très clair au lieu d'un vert trop vif */
-  min-height: 100vh;
-  display: flex;
-  justify-content: center; /* Centre horizontalement */
-  align-items: center;     /* Centre verticalement */
-  padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
 }
 
-/* 3. Style de la carte de présentation */
-.carte {
-  background-color: white;
-  width: 100%;
-  max-width: 600px; /* Évite que le texte soit trop large */
-  padding: 30px;
-  border-radius: 12px; /* Coins arrondis */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre légère */
-}
-
-/* 4. Styles des titres et éléments */
 h1 {
-  color: #1a5276;
-  border-bottom: 2px solid #1a5276;
-  padding-bottom: 8px;
-  margin-bottom: 12px;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
 }
 
 h2 {
-  color: #2e4053;
-  margin-bottom: 16px;
+    color: #7f8c8d;
 }
 
-h3 {
-  color: #1a5276;
-  margin-top: 16px;
-}
-
-p {
-  color: #333333;
-  line-height: 1.6;
-  margin-bottom: 12px;
-}
-
-/* Style de mise en valeur */
-.phrase-cle {
-  font-weight: bold;
-  font-style: italic;
-  color: #117a65;
-  background-color: #e8f8f5;
-  padding: 10px;
-  border-left: 4px solid #117a65;
-  border-radius: 4px;
+.citation {
+    font-style: italic;
+    font-weight: bold;
+    color: #e67e22;
+    margin-top: 20px;
 }
