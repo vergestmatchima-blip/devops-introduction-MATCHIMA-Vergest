@@ -1,11 +1,12 @@
 /* ===== Style général de la page ===== */
 body {
-    background-color: whitesmoke;    /* fond légèrement gris clair */
-    font-family: Arial, sans-serif;  /* police simple et lisible */
-    color: dimgray;                  /* couleur du texte (gris foncé, plus doux que le noir) */
-    line-height: 1.6;                /* espace entre les lignes, pour aérer le texte */
-    margin: 0;                       /* supprime les marges par défaut du navigateur */
-    padding: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
 }
 
 /* ===== Titre principal ===== */
