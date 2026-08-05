@@ -1,10 +1,33 @@
-
+/* ===== Style général de la page ===== */
 body {
-    background-color: #f2f2f2;
-    font-family: Arial, sans-serif;
-    text-align: center;
+    background-color: whitesmoke;    /* fond légèrement gris clair */
+    font-family: Arial, sans-serif;  /* police simple et lisible */
+    color: dimgray;                  /* couleur du texte (gris foncé, plus doux que le noir) */
+    line-height: 1.6;                /* espace entre les lignes, pour aérer le texte */
+    margin: 0;                       /* supprime les marges par défaut du navigateur */
+    padding: 0;
 }
 
+/* ===== Titre principal ===== */
 h1 {
-    color: darkblue;
+    color: navy;            /* bleu foncé, couleur "professionnelle" */
+    text-align: center;     /* titre centré */
+    padding: 20px 0;        /* espace au-dessus et en dessous */
+    border-bottom: 2px solid navy; /* petite ligne de séparation sous le titre */
+}
+
+/* ===== Sous-titres ===== */
+h2 {
+    color: navy;
+    margin-top: 30px;
+}
+
+/* ===== Liens ===== */
+a {
+    color: navy;
+    text-decoration: none;  /* enlève le soulignement */
+}
+
+a:hover {
+    text-decoration: underline; /* souligne au survol de la souris */
 }
