@@ -22,6 +22,6 @@ git init
 git add .
 git commit -m "Premier commit"
 git branch -M main
-git remote add origin https://github.com/vergestmatchima-blip/devops-git/devops-introduction-matchima-vergest.git
+git remote add origin https://github.com/vergestmatchima-blip/devops-introduction-MATCHIMA-Vergest.git
 git push -u origin main
 -
