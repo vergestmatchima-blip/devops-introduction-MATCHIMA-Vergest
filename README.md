@@ -11,12 +11,17 @@ Licence 1 (L1)
 Le DevOps est une approche et une culture de travail qui vise à rapprocher le développement logiciel (Dev) et l'exploitation système (Ops). Son objectif principal est d'automatiser et d'optimiser les processus afin de livrer des applications et des mises à jour de manière rapide, continue et sécurisée.
 
 
+
+## explication
+j'ai pas utiliser de commande vue que j'ai code via github en ligne, mais si je l'aurais fais sur Vcode.
+la commande que j'allais mettre en evidence et que j'ai utiluiee d'ailleur pour mes precedent devoir est la suivante.
+
 ## Commandes Git utilisées
 
 git init
 git add .
 git commit -m "Premier commit"
 git branch -M main
-git remote add origin https://github.com/votre-compte/devops-introduction-matchima-vergest.git
+git remote add origin https://github.com/vergestmatchima-blip/devops-git/devops-introduction-matchima-vergest.git
 git push -u origin main
 -
